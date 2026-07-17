@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SwapUp — Achetez, vendez, échangez facilement</title>
+<meta name="description" content="SwapUp est la plateforme simple et sécurisée pour vendre vos articles ou en trouver près de chez vous. Électronique, vêtements, meubles, véhicules et plus.">
+<meta name="theme-color" content="#12142c">
+<meta name="author" content="SwapUp">
+<meta property="og:title" content="SwapUp — Achetez, vendez, échangez facilement">
+<meta property="og:description" content="La plateforme simple et sécurisée pour vendre vos articles ou en trouver près de chez vous.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="index.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Aller au contenu principal</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#" aria-label="SwapUp — retour à l'accueil">
+      <span class="brand-mark" aria-hidden="true">S</span>
+      SwapUp
+    </a>
+
+    
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+
+    <nav class="primary-nav" id="primary-nav" aria-label="Navigation principale">
+      <a href="#" aria-current="page">Accueil</a>
+      <a href="#categories">Catégories</a>
+      <a href="#offres">Offres</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="btn btn-primary" type="button">
+        <span aria-hidden="true">+</span>
+        <span class="btn-text">Publier une annonce</span>
+      </button>
+      <a class="account-btn" href="#" aria-label="Mon compte">
+        <span aria-hidden="true">👤</span>
+      </a>
+      <label class="menu-toggle" for="nav-toggle">
+        <span class="visually-hidden">Ouvrir ou fermer le menu de navigation</span>
+        <span aria-hidden="true"></span>
+      </label>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" aria-label="Présentation de SwapUp">
+    <div class="wrap">
+      <div class="hero-content">
+        <span class="hero-eyebrow">🇹🇬 Disponible dans tout le pays</span>
+        <h1>Achetez, vendez,<br><span class="accent">échangez facilement</span></h1>
+        <p class="lede">La plateforme simple et sécurisée pour vendre vos articles ou en trouver près de chez vous.</p>
+
+        <form class="search-form" role="search" action="#" method="get">
+          <label class="visually-hidden" for="search">Rechercher un article ou une catégorie</label>
+          <input type="search" id="search" name="q" placeholder="Rechercher un article, une catégorie...">
+          <button type="submit">Rechercher</button>
+        </form>
+
+        <ul class="hero-stats" aria-label="Chiffres clés de SwapUp">
+          <li><span class="stat-badge pink" aria-hidden="true">🏷️</span> <strong>10K+</strong> <span>Annonces</span></li>
+          <li><span class="stat-badge blue" aria-hidden="true">👥</span> <strong>5K+</strong> <span>Utilisateurs</span></li>
+          <li><span class="stat-badge green" aria-hidden="true">✔️</span> <strong>100%</strong> <span>Gratuit</span></li>
+        </ul>
+
+        <nav class="filter-pills" aria-label="Filtrer par catégorie">
+          <a href="#" aria-current="true">🏷️ Tout</a>
+          <a href="#">📱 Électronique</a>
+          <a href="#">👕 Vêtements</a>
+          <a href="#">🛋️ Meubles</a>
+          <a href="#">🚗 Véhicules</a>
+          <a href="#">🏠 Maison</a>
+        </nav>
+      </div>
+
+      <div class="hero-mosaic" aria-hidden="true">
+        <div class="mosaic-tile">📱</div>
+        <div class="mosaic-tile">📷</div>
+        <div class="mosaic-tile">🪑</div>
+        <div class="mosaic-tile">⏰</div>
+        <div class="mosaic-tile">👜</div>
+        <div class="mosaic-tile">👟</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="categories" aria-labelledby="categories-heading">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="categories-heading">Catégories populaires</h2>
+        <a class="see-all" href="#">Voir tout</a>
+      </div>
+      <ul class="categories-grid">
+        <li class="category-card">
+          <div class="category-icon ic-blue" aria-hidden="true">📱</div>
+          <p>Électronique</p>
+        </li>
+        <li class="category-card">
+          <div class="category-icon ic-pink" aria-hidden="true">👕</div>
+          <p>Vêtements</p>
+        </li>
+        <li class="category-card">
+          <div class="category-icon ic-teal" aria-hidden="true">🏠</div>
+          <p>Maison</p>
+        </li>
+        <li class="category-card">
+          <div class="category-icon ic-red" aria-hidden="true">🚗</div>
+          <p>Véhicules</p>
+        </li>
+        <li class="category-card">
+          <div class="category-icon ic-amber" aria-hidden="true">📚</div>
+          <p>Livres</p>
+        </li>
+        <li class="category-card">
+          <div class="category-icon ic-green" aria-hidden="true">⚽</div>
+          <p>Sport</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="offres" aria-labelledby="listings-heading">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="listings-heading">Annonces récentes</h2>
+        <span class="count-chip">6 articles</span>
+      </div>
+
+      <ul class="listings-grid">
+        <li class="listing-card">
+          <div class="listing-media">
+            <span class="listing-badge">Électronique</span>
+            <span aria-hidden="true">📱</span>
+          </div>
+          <div class="listing-body">
+            <p class="listing-price">145 000 FCFA</p>
+            <p class="listing-title">iPhone 11 – 64Go</p>
+            <p class="listing-location">📍 Lomé</p>
+            <a class="whatsapp-btn" href="https://wa.me/22890000000?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20votre%20annonce%20%3A%20iPhone%2011%20-%2064Go%20(145%20000%20FCFA)%20sur%20SwapUp." target="_blank" rel="noopener">
+              <span aria-hidden="true">📞</span> Contacter sur WhatsApp
+            </a>
+          </div>
+        </li>
+
+        <li class="listing-card">
+          <div class="listing-media">
+            <span class="listing-badge">Meubles</span>
+            <span aria-hidden="true">🛋️</span>
+          </div>
+          <div class="listing-body">
+            <p class="listing-price">60 000 FCFA</p>
+            <p class="listing-title">Canapé 3 places gris</p>
+            <p class="listing-location">📍 Lomé</p>
+            <a class="whatsapp-btn" href="https://wa.me/22890000000?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20votre%20annonce%20%3A%20Canap%C3%A9%203%20places%20gris%20(60%20000%20FCFA)%20sur%20SwapUp." target="_blank" rel="noopener">
+              <span aria-hidden="true">📞</span> Contacter sur WhatsApp
+            </a>
+          </div>
+        </li>
+
+        <li class="listing-card">
+          <div class="listing-media">
+            <span class="listing-badge">Vêtements</span>
+            <span aria-hidden="true">👗</span>
+          </div>
+          <div class="listing-body">
+            <p class="listing-price">8 000 FCFA</p>
+            <p class="listing-title">Robe soirée taille M</p>
+            <p class="listing-location">📍 Kara</p>
+            <a class="whatsapp-btn" href="https://wa.me/22890000000?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20votre%20annonce%20%3A%20Robe%20soir%C3%A9e%20taille%20M%20(8%20000%20FCFA)%20sur%20SwapUp." target="_blank" rel="noopener">
+              <span aria-hidden="true">📞</span> Contacter sur WhatsApp
+            </a>
+          </div>
+        </li>
+
+        <li class="listing-card">
+          <div class="listing-media">
+            <span class="listing-badge">Chaussures</span>
+            <span aria-hidden="true">👟</span>
+          </div>
+          <div class="listing-body">
+            <p class="listing-price">25 000 FCFA</p>
+            <p class="listing-title">Baskets running neuves</p>
+            <p class="listing-location">📍 Sokodé</p>
+            <a class="whatsapp-btn" href="https://wa.me/22890000000?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20votre%20annonce%20%3A%20Baskets%20running%20neuves%20(25%20000%20FCFA)%20sur%20SwapUp." target="_blank" rel="noopener">
+              <span aria-hidden="true">📞</span> Contacter sur WhatsApp
+            </a>
+          </div>
+        </li>
+
+        <li class="listing-card">
+          <div class="listing-media">
+            <span class="listing-badge">Véhicules</span>
+            <span aria-hidden="true">🚗</span>
+          </div>
+          <div class="listing-body">
+            <p class="listing-price">3 200 000 FCFA</p>
+            <p class="listing-title">Toyota Corolla 2015</p>
+            <p class="listing-location">📍 Lomé</p>
+            <a class="whatsapp-btn" href="https://wa.me/22890000000?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20votre%20annonce%20%3A%20Toyota%20Corolla%202015%20(3%20200%20000%20FCFA)%20sur%20SwapUp." target="_blank" rel="noopener">
+              <span aria-hidden="true">📞</span> Contacter sur WhatsApp
+            </a>
+          </div>
+        </li>
+
+        <li class="listing-card">
+          <div class="listing-media">
+            <span class="listing-badge">Livres</span>
+            <span aria-hidden="true">📚</span>
+          </div>
+          <div class="listing-body">
+            <p class="listing-price">2 000 FCFA</p>
+            <p class="listing-title">Lot de romans (x5)</p>
+            <p class="listing-location">📍 Lomé</p>
+            <a class="whatsapp-btn" href="https://wa.me/22890000000?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20votre%20annonce%20%3A%20Lot%20de%20romans%20(x5)%20(2%20000%20FCFA)%20sur%20SwapUp." target="_blank" rel="noopener">
+              <span aria-hidden="true">📞</span> Contacter sur WhatsApp
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" id="contact">
+  <div class="wrap">
+    <p>© 2026 <strong>SwapUp</strong>. Tous droits réservés.</p>
+  </div>
+</footer>
+
+</body>
+</html>
